@@ -1,0 +1,8 @@
+---
+title: Barrison.com
+---
+
+.home
+  - page_articles.each do |post|
+    h2 = link_to post.title, post
+    = post.body
