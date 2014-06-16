@@ -1,8 +1,28 @@
 ---
 title: Barrison.com
+pageable: true
+per_page: 2
 ---
 
 .home
   - page_articles.each do |post|
     h2 = link_to post.title, post
     = post.body
+
+.pagination
+  ul
+    li
+      - if prev_page
+        =link_to "Prev", prev_page.url
+      - else
+        span Prev
+    - (page_number - 2 .. page_number + 2).select{|i| i > 0 && i <= num_pages}.each do |i|
+      - if i == page_number
+        li.active
+          span= i
+      - else
+        li
+          - p = nil
+          - (i ... page_number).each do p = p ? p.metadata[:locals]['prev_page'] : prev_page; end
+          - (page_number ... i).each do p = p ? p.metadata[:locals]['next_page'] : next_page; end
+          =link_to "#{i}", p && p.url

@@ -5,6 +5,9 @@ set :images_dir, 'images'
 activate :blog do |blog|
   blog.permalink = "{post}"
   blog.sources = "posts/{post}.html"
+  blog.paginate = true
+  blog.page_link = "p{num}"
+  blog.per_page = 20
 end
 
 configure :build do
