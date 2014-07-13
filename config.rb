@@ -7,7 +7,7 @@ activate :blog do |blog|
   blog.sources = "posts/{post}.html"
   blog.paginate = true
   blog.page_link = "p{num}"
-  blog.per_page = 20
+  blog.per_page = 10
   blog.layout = "blog_layout"
 end
 
