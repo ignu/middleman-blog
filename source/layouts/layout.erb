@@ -8,9 +8,17 @@
     <title><%= current_page.data.title  %></title>
     <%= stylesheet_link_tag "normalize", "all" %>
     <%= javascript_include_tag  "all" %>
+    <link rel="icon" type="image/ico" href="favicon.ico" />
   </head>
   <body>
-    <h1><%= current_page.data.title %></h1>
-    <%= yield %>
+    <div class="head">
+      <a href="/"><img src="/images/logo-cropped.png" alt="Barrison"></a>
+      <span class="social">
+        <a href="http://twitter.com/ignu"><img src="/images/twitter-logo.png" alt="Twitter"></a>
+      </span>
+    </div>
+    <div class="body">
+      <%= yield %>
+    </div>
   </body>
 </html>

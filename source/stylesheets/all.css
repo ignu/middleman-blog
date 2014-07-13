@@ -3,14 +3,82 @@
 body {
   background: #eeeeee;
   font-family: sans-serif;
-  padding: 40px;
+  padding: 0px;
+  margin: 0px;
 }
 
+h2.title {
+  border-bottom: 1px solid #DDD;
+  padding: 5px 0px;
+}
+
+#post {
+  width: 70%;
+  padding: 50px;
+  margin: auto;
+}
+
+pre {
+  padding: 25px;
+  background-color: #DDD;
+}
+
+a {
+  color: #227;
+  text-decoration: none;
+}
+
+head, .head {
+  height: 86;
+  padding: 0px 20px 5px 30px;
+  background-color: #000;
+}
+
+.content {
+  padding: 20px 75px;
+}
+
+.social {
+  padding-top: 5px;
+  float: right;
+}
+
+.footer {
+  background-color: #000;
+  color: #999;
+  padding: 20px;
+  margin: 0px;
+}
+
+.footer a, .footer a:visited {
+  color: #999;
+  text-decoration: none;
+}
+
+.pagination { text-align: center; margin: 10px 0; word-spacing: -1em; }
+.pagination li { display: inline-block; list-style: none; font: bold 12px/13px Arial, Helvetica, sans-serif; padding: 5px 9px; color: #999; background: #eee; word-spacing: normal; margin: 0 1px; }
+.pagination li.first { margin-right: 10px; }
+.pagination li.last { margin-left: 10px; }
+.pagination li.current { background: #66CC00; color: #fff; }
+.pagination li a { display: inline-block; padding: 5px 9px; margin: -5px -9px; text-decoration: none;}
+.pagination li a,
+.pagination li a:link,
+.pagination li a:visited,
+.pagination li a:active { background: #666; color: #fff; }
+.pagination li a:hover,
+.pagination li a:focus { background: #333; }
+.pagination li,
+.pagination li a {
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+
 h1 {
-  padding: 10px;
-  color: rgba(0, 0, 0, .3);
+  padding: 0px 0px 15px 0px;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 42px;
   letter-spacing: -1px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
   margin: 0;

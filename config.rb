@@ -8,6 +8,7 @@ activate :blog do |blog|
   blog.paginate = true
   blog.page_link = "p{num}"
   blog.per_page = 20
+  blog.layout = "blog_layout"
 end
 
 configure :build do
