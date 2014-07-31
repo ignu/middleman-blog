@@ -1,10 +1,10 @@
 ---
-title: Manipulate History for Meaningful Commits in Git
+title: Manipulate History for Meaningful Commits
 date: 2013-05-05
 tags: git
 ---
 
-<div><img src="http://www.barrison.com/wp-content/uploads/2012/10/quantum-leap.jpg" alt="Quantum leap" title="quantum-leap.jpg" border="0" width="500" height="373" /></div>
+<div><img src="https://dl.dropboxusercontent.com/s/557cxr504tong76/quantum-leap.jpg" alt="Quantum leap" title="quantum-leap.jpg" border="0" width="500" height="373" /></div>
 
 One of git's most powerful features is the ability to rewrite history.
 
@@ -38,13 +38,14 @@ p Now, once that feature is complete, it's time to think about the future audien
 
 Then you'll see this screen.
 
-<img src="http://www.barrison.com/wp-content/uploads/2012/10/Screen-Shot-2012-10-17-at-8.46.49-PM.png" border="0" width="600" height="351" />
+<img src="https://dl.dropboxusercontent.com/s/y8js0jqdrv5p64e/Screen-Shot-2012-10-17-at-8.46.49-PM.png" border="0" width="600" height="351" />
 
 Pick the first commit, and change the word "pick" to "s" to squash all the other commits into it. 
 
 Save and exit.
 
 <img src="http://www.barrison.com/wp-content/uploads/2012/10/Screen-Shot-2012-10-17-at-8.50.10-PM.png" border="0" width="600" height="441" />
+
 
 Now you'll be presented with a chance to edit your commit message.  You'll see a list of your previous commit messages and all the files changed, so you have no excuse to document exactly what you did, packing as many searchable keywords in that first line as possible.  (You're not going to search for "fixed the issue" a month from now, so use as precise wording as possible.)
 

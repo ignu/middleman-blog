@@ -7,32 +7,34 @@ tags: distributed
 
 ![Phone](http://i.imgur.com/nftJH.jpg)
 
-Mad Men is a decent show but much has happened since the 50s. Meanwhile, your phone is not significantly better than theirs.
+Telephone technology has not significantly advanced in a century.
 
 The Phone makes you sound like you're on AM radio.
 
+Stop.
+
 [Skype](http://skype.com) can sound like a CD, assuming you spend more than $10 on a microphone and have a decent internet connection. Skype does brilliant filtering of background noise and can adjust levels if multiple people are talking even more brilliantly.
 
-This is not just audiophilery. &nbsp;Voice quality is important because:
+This is not just audiophilery. Voice quality is important because:
 
-* You don't want misunderstandings due to mishearing
 * "I'm sorry, what was that?" is a waste of everyone's time
-* It's just more enjoyable having a conversation with someone who sounds like they're in the same room.
-* You feel more connected to a human voice than a tinny noise squaking out of the telephone.
+* You don't want misunderstandings due to mishearing
+* It's more enjoyable having a conversation with someone who sounds like they're in the same room.
+* You feel more connected to a voice that sounds human than a tinny noise squaking out of the telephone.
 
-Oh, and a laptop with Skype is a far better speakerphone than any speakerphone.
+(And a laptop with Skype is a far better speakerphone than any speakerphone.)
 
 ## 2. Not use the best screen sharing tools
 
-Being able to share your screen quickly is critical for collaboration. &nbsp;It's easier to show a problem than describe it, and misunderstandings can be terribly wasteful.
+Being able to share your screen quickly is critical for collaboration. It's easier to show a problem than describe it, and misunderstandings can be terribly wasteful.
 
 And if you're doing software, there's nothing better than pair-programming at least some of the time.
 
-Remote pairing is often considered fantasy. &nbsp;This belief is understandable since LiveMeeting, GoToMeeting, CrossLoop and other garbage are peddled as if they were actual software. &nbsp;They are not. &nbsp;Their quality is poor and their painful setup wastes hours of productivity.
+Remote pairing is often considered fantasy. This belief is understandable since LiveMeeting, GoToMeeting, CrossLoop and other garbage are peddled as if they were actual software. They are not. Their quality is poor and their painful setup wastes hours of productivity.
 
-Nothing I have yet seen beats <a href="https://secure.logmein.com/US/products/pro2/">LogMeIn Pro</a>. &nbsp;LogMeIn lets your partner see your desktop through any firewall and use your mouse and keyboard as if it were their own. &nbsp;It works on OSX or Windows, and if you have IE or the FireFox plugin installed the quality will be close to Remote Desktop. &nbsp;It then degrades gracefully to Java, Flash and finally resorts to sending images.
+Nothing I have yet seen beats <a href="https://secure.logmein.com/US/products/pro2/">LogMeIn Pro</a>. LogMeIn lets your partner see your desktop through any firewall and use your mouse and keyboard as if it were their own. &nbsp;It works on OSX or Windows, and if you have IE or the FireFox plugin installed the quality will be close to Remote Desktop. It then degrades gracefully to Java, Flash and finally resorts to sending images.
 
-[LogMeIn Express]("https://join.me/") isn't quite as sharp as LogMeIn Pro, but is a tolerable substitute for people who don't want to spend $15 a month or want to share their screen to multiple participants.)
+[LogMeIn Express](https://join.me/) isn't quite as sharp as LogMeIn Pro, but is a tolerable substitute for people who don't want to spend $15 a month or want to share their screen to multiple participants.)
 
 ## 3. Not adjust their schedule
 
@@ -63,7 +65,7 @@ I've decided it's important if someone says my name, a project I'm working on or
 Two other tools for remote workers I think I might believe in but haven't been able to try yet are internal twitters like <a href="http://yammer.com">Yammer</a> or <a href="http://www.hanselman.com/blog/VirtualCamaraderieAPersistentVideoPortalForTheRemoteWorker.aspx">virtual windows like Scott Hanselman describes</a>.
 
 And on that note, I so far avoided talking about webcams.
-<img src="http://i.imgur.com/pc6xK.jpg" alt="" />
+![](http://i.imgur.com/pc6xK.jpg)
 
 Seeing each other is important to feel more connected, but the story for sharing video is still not great.
 

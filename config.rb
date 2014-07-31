@@ -6,7 +6,7 @@ activate :blog do |blog|
   blog.permalink = "{post}"
   blog.sources = "posts/{post}.html"
   blog.paginate = true
-  blog.page_link = "p{num}"
+  blog.page_link = "page-{num}"
   blog.per_page = 10
   blog.layout = "blog_layout"
 end

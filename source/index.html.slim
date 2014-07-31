@@ -6,10 +6,18 @@ per_page: 5
 
 .content
   .home
-    - page_articles.each do |post|
+    .post
+      - rest = page_articles.clone
+      - post = rest.shift
       h2.title = link_to post.title, post
-      = post.summary
-      = link_to "Read more...", post
+      = post.body
+      = link_to "Permalink...", post
+
+    - rest.each do |post|
+      .post
+        h2.title = link_to post.title, post
+        = post.summary
+        = link_to "Read more...", post
 
 .footer
   .pagination
