@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+- 2.1
+script: bundle exec middleman build
+deploy:
+- provider: s3
+  access_key_id: AKIAIFKLH5RKK5JO7LNA
+UsqGOrz28HiK5tmsmNdn850z1Mc1+IYPy3tISv67k
+  secret_access_key:
+    secure: Vv1FoAxCKXQfrsURrGiXQlL8n9+lLMH5vaSENcyw6y7ksKI248LihioTRBtHG7KLgEf/oCK4Scf/LJQK1CPTPMv92xWW5pztvk+bY4jJr4dYG5+SwSz+DlcHzh1SV9EpFEwQY/9CIXz5hqBumCEt3FqPmppbSf22kQFjdZRDT4Q=
+  bucket: barrison.com
+  local-dir: build
+  skip_cleanup: true
+  on:
+    branch: master
+
