@@ -28,7 +28,7 @@ Or, as [Uncle Bob says:](http://www.agiledata.org/essays/tdd.html#sthash.jmWMwZL
 
 > “The act of writing a unit test is more an act of design than of verification. It is also more an act of documentation than of verification. The act of writing a unit test closes a remarkable number of feedback loops, the least of which is the one pertaining to verification of function”.
 
-But today, in many apps, there is increasingly fewer classes where design decisions need to be made or documented.
+But today, in many apps, there are increasingly fewer classes where design decisions need to be made or documented.
 
 So instead, we argue about writing tests that prove correctness and that often leads to large, slow, brittle test suites that do not help the quality of our code.
 

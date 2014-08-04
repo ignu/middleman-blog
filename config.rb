@@ -18,6 +18,8 @@ configure :build do
   activate :relative_assets
 end
 
+page "/feed.xml", :layout => false
+
 __END__
 
 ###

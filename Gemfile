@@ -7,6 +7,7 @@ gem "middleman-favicon-maker"
 gem "middleman-blog"
 gem "slim"
 gem "nokogiri"
+gem "builder"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
