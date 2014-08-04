@@ -1,10 +1,10 @@
 xml.instruct!
 xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
-  xml.title "Nayef Copty"
-  xml.subtitle "Blog & Portfolio"
-  xml.id "http://nayefcopty.com/blog"
-  xml.link "href" => "http://nayefcopty.com/blog"
-  xml.link "href" => "http://blog.url.com/feed.xml", "rel" => "self"
+  xml.title "Barrison.com"
+  xml.subtitle "Len Smith's rants about software"
+  xml.id "http://barrison.com"
+  xml.link "href" => "http://barrison.com"
+  xml.link "href" => "http://barrison.com/feed.xml", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
   xml.author { xml.name "Nayef Copty" }
 
@@ -15,7 +15,7 @@ xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
       xml.id article.url
       xml.published article.date.to_time.iso8601
       xml.updated article.date.to_time.iso8601
-      xml.author { xml.name "Nayef Copty" }
+      xml.author { xml.name "Len Smith" }
       xml.summary article.summary, "type" => "html"
       xml.content article.body, "type" => "html"
     end
